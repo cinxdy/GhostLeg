@@ -1,5 +1,5 @@
 
-This File is a Ghost Leg Game for Korean.
+This File is a Ghost Leg Tool for Korean.
 
 When Team member have to decide turn or get the each member's number, this tool will be useful.
 
