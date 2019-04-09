@@ -1,13 +1,20 @@
+# About Ghost Leg  
+This File is a Ghost Leg Tool for Koreans.  
 
-This File is a Ghost Leg Tool for Korean.
+When Team member have to decide turn or get the each member's number, this tool will be useful.  
 
-When Team member have to decide turn or get the each member's number, this tool will be useful.
-
-You are going to type the number of members in first try.
-Then, The Program would be print the list of animals or flowers.
-You should choose the one of them, and press enter key to keep going.
+You are going to type the number of members in first try.  
+Then, The Program would be print the list of animals or flowers.  
+You should choose the one of them, and press enter key to keep going.  
 The Result will be printed after enter.
-The end.
 
-Thanks.
-Made by Cinxdy.
+# Compilation
+  g++ GhostLeg.cpp -o GhostLeg  
+
+# Execution
+  ./GhostLeg  
+  [Numbers of people] [Enter]  
+  (...Choosing...)[Enter]  
+
+# Contributor
+Cinxdy. (cinxdys2@gmail.com)
