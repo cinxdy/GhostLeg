@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h2>
+        
+    <form method="POST" action="/result">
+        동물과 닮은 사람의 이름을 써주세요!
+        <br>
+        <br>
+        {%for item in list%}
+        {{item}}
+        <input type="text" name="name{{loop.index}}">
+        <br>
+        {%endfor%}
+        <button name='button' type="submit" class="btn btn-lg btn-info" value='go'>Next!</button>
+    </form>
+    </h2>
+
+{% endblock %}

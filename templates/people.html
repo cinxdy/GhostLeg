@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <h2>
+        
+    <form method="POST" action="/naming">
+        몇 명의 사람들이 있나요?
+        <br>
+        <input type="text" name="people">
+        <button name='button' type="submit" class="btn btn-lg btn-info" value='go'>Next!</button>
+    </form>
+    </h2>
+
+{% endblock %}
