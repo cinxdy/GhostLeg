@@ -1,4 +1,4 @@
 /vscode
-/venv
+webGhostLeg/venv
 *.out
 /__pycache__
